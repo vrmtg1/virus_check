@@ -1,0 +1,202 @@
+*::selection {
+    color: #FFFF; /* Цвет текста */
+    background: #EBE000; /* Цвет фона */
+}
+header{
+	width: 100%;
+	height: 70%;
+	position: absolute;
+	top: 0;
+    background: linear-gradient(1deg, #0B5BE3, #157EFA, #00B7FA);
+	left: 0;
+	font-family: 'Comfortaa', cursive;
+	font-size: 150%;
+	color: white;
+}
+a{
+	color: #FFFF;
+	text-decoration: none;
+}
+#to_go{
+	width: 15%;
+	margin: auto;
+	height: 7%;
+	background-color: #FAE201;
+	position: relative;
+	top: 45%;
+	border-radius: 40px;
+	color: default;
+}
+#to_go:hover{
+	background: linear-gradient(50deg, #EEFA4A ,#FAE201);
+}
+#how{
+	font-family: 'Comfortaa', cursive;
+	font-size: 250%;
+	position: absolute;
+	left: 0;
+	top: 70%;
+	width: 100%;
+	height: 50%;
+}
+#hr1 {
+	border: none;
+    background: linear-gradient(10deg, #0B5BE3, #156DFA, #00B7FA);
+    color: #7A2FFA;
+    position: relative;
+    height: 1%;
+    width: 20%;
+    top: 8%;
+    border-radius: 100px;
+}
+#how_txt{
+	font-size: 70%;
+	width: 80%;
+	position: relative;
+	top: 10%;
+	margin: auto;
+	line-height: 1.5;
+}
+.color_txt{
+	color: #156DFA;
+}
+
+#check{
+	font-family: 'Comfortaa', cursive;
+	font-size: 250%;
+	position: absolute;
+	left: 0;
+	top: 123%;
+	width: 100%;
+	height: 50%;
+}
+#hr3{
+	border: none;
+    background: linear-gradient(10deg, #0B5BE3, #156DFA, #00B7FA);
+    color: #7A2FFA;
+    position: relative;
+    height: 1%;
+    width: 32%;
+    top: 8%;
+    border-radius: 100px;
+}
+#names{
+	top: 45%;
+	width: 30%;
+	font-size: 80%;
+	right: 23%;
+	position: absolute;
+}
+#name1{
+	position: absolute;
+}
+#name2{
+	position: absolute;
+	right: 0;
+}
+#antivirus{
+	position: absolute;
+	top: 66%;
+	width: 50%;
+	height: 100%;
+	left: 27%;
+}
+.cheker{
+	height: 52px;
+	position: relative;
+	margin-top: 2%;
+}
+.check1{
+	position: absolute;
+	top: 2%;
+	left: 45%;
+}
+.check2{
+	position: absolute;
+	top: 2%;
+	right: 8%;
+}
+.inf{
+	font-size: 50%;
+	position: relative;
+	margin-left: 10%;
+}
+#infBox{
+	position: absolute;
+	width: 50%;
+	top: 170%;
+	left: 25%;
+
+}
+#download{
+    background: linear-gradient(1deg, #0B5BE3, #156DFA, #00B7FA);
+	width: 100%;
+	height: 85%;
+	position: absolute;
+	top: 250%;
+	left: 0;
+	font-family: 'Comfortaa', cursive;
+	font-size: 250%;
+	color: white;
+}
+#hr2{
+	border: none;
+    background: linear-gradient(10deg, #FFFFFF, #CFCFCF);
+    color: #7A2FFA;
+    position: relative;
+    height: 0.6%;
+    width: 27%;
+    top: -3%;
+    border-radius: 100px;
+}
+#download_key{
+	width: 20%;
+	height: 70%;
+	position: absolute;
+	top: 23%;
+	left: 20%;
+	border: 10px solid white;
+	border-radius: 40px 40px 40px 40px;
+}
+#download_loc{
+	width: 20%;
+	height: 70%;
+	position: absolute;
+	top: 23%;
+	right: 20%;
+	border: 10px solid white;
+	border-radius: 40px 40px 40px 40px;
+}
+.hr_dw{
+	border: none;
+    background: linear-gradient(1deg, #CFCFCF, #FFFFFF);
+    color: #7A2FFA;
+    position: relative;
+    height: 0.5%;
+    width: 70%;
+    top: -6%;
+    border-radius: 100px;
+}
+.discription{
+	font-size: 70%;
+	left: 5%;
+	position: relative;
+	line-height: 2;
+}
+.download_btn{
+	transition: 0.5s;
+	width: 70%;
+	height: 10%;
+	top: 0;
+	border: 5px solid white;
+	border-radius: 40px;
+	position: relative;
+	margin: auto;
+	font-size: 60%;
+}
+.download_btn:hover{
+	transition: 0.5s;
+	background-color: white;
+	color: #0B5BE3;
+	cursor: default;
+}
